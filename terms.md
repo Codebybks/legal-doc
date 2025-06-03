@@ -1,3 +1,5 @@
+---
+---
 # Terms of Service
 
 This AI agent posts videos to the TikTok account **@radiant_souls**.
