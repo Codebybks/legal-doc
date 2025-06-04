@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Callback</title>
+</head>
+<body>
+  <h2>OAuth Redirect</h2>
+  <p>Code: <span id="code"></span></p>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    document.getElementById("code").innerText = urlParams.get("code") || "No code found";
+  </script>
+</body>
+</html>
